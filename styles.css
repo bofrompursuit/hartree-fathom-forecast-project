@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+}
+
+#app {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- Dashboard UI Extensions --- */
+header h1 {
+    color: #38bdf8;
+    border-bottom: 1px solid #1e293b;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card,
+.ai-container {
+    background-color: #111827;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+th,
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #1e293b;
+}
+
+th {
+    color: #94a3b8;
+}
+
+.highlight-row {
+    background-color: #1e293b;
+    color: #38bdf8;
+}
+
+.insight-box {
+    background-color: #1f2937;
+    border-left: 4px solid #38bdf8;
+    padding: 1rem;
+    border-radius: 0 4px 4px 0;
+    margin-bottom: 1rem;
+}
+
+.insight-box h3 {
+    margin-top: 0;
+    color: #f1f5f9;
+}
